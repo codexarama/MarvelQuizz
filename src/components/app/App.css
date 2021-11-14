@@ -138,17 +138,16 @@ main {
   background-image: url(../../assets/wolverine.png), url(../../assets/griffes-droit.png);
 }
 
-.leftBox {
+.leftBox,
+.rightBox {
+  height: 85%;
   display: flex;
-  flex: 0 1 35%;
-  align-items: flex-start;
-  justify-content: flex-end;
+  flex: 0 1 30%;
+  align-items: center;
 }
 
-.rightBox {
-  display: flex;
-  flex: 0 1 35%;
-  align-items: flex-start;
+.leftBox {
+  justify-content: flex-end;
 }
 
 .btn-welcome {
@@ -161,7 +160,6 @@ main {
   font-size: 19px;
   text-align: center;
   text-decoration: none;
-  margin-top: 150px;
 }
 
 .btn-welcome:hover {

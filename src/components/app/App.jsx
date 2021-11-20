@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Header from '../Header';
 import Welcome from '../Welcome';
@@ -15,14 +14,14 @@ export default function App() {
   return (
     <BrowserRouter>
       <Header />
-      
-      <Switch>
-        <Route exact path="/" component={Landing} />
-        <Route path="/welcome" component={Welcome} />
-        <Route path="/login" component={Login} />
-        <Route exact path="/register" component={Register} />
-        <Route component={Error} />
-      </Switch>
+
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/welcome" element={<Welcome />} />
+        <Route path="/login" element={<Login />} />
+        <Route exact path="/register" element={<Register />} />
+        <Route path='*' element={<Error />} />
+      </Routes>
 
       <Footer />
     </BrowserRouter>

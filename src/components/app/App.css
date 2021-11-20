@@ -31,13 +31,12 @@
 @import url('https://fonts.googleapis.com/css?family=Anton|Bangers|Carter+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed&display=swap');
 
-
 :root {
   --white-color: #ffffff;
-  --light-grey-color: #EAE8E8;
+  --light-grey-color: #eae8e8;
   --light-green-color: #1ecc78;
   --green-color: #0cb765;
-  --red-color: #EB1D27;
+  --red-color: #eb1d27;
   --blue-color: #4f78a4;
   --dark-red-color: #d31017;
   --dark-grey-color: #363636;
@@ -112,38 +111,40 @@ header {
 /* MAIN */
 main {
   flex-grow: 1;
+  height: 80vh;
 }
 /* END MAIN */
 
 /* WELCOME PAGE */
 .welcomePage {
   background-color: var(--red-color);
-  background-image: url(../../assets/wolverine.png);
+  background-image: url(../../assets/wolverine.svg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center bottom;
   display: flex;
   justify-content: space-between;
-  height: 80vh;
 }
 
 .startingImg {
-  background-image: url(../../assets/xmen.png);
+  background-image: url(../../assets/xmen.svg);
 }
 
 .leftImg {
-  background-image: url(../../assets/wolverine.png), url(../../assets/griffes-gauche.png);
+  background-image: url(../../assets/wolverine-smile.svg),
+    url(../../assets/griffes-gauche.svg);
 }
 
 .rightImg {
-  background-image: url(../../assets/wolverine.png), url(../../assets/griffes-droit.png);
+  background-image: url(../../assets/wolverine-smile.svg),
+    url(../../assets/griffes-droit.svg);
 }
 
 .leftBox,
 .rightBox {
-  height: 85%;
+  height: 40%;
   display: flex;
-  flex: 0 1 30%;
-  align-items: center;
+  flex: 0 1 33%;
+  align-items: flex-end;
 }
 
 .leftBox {
@@ -206,19 +207,39 @@ footer {
 .quiz-bg {
   margin: 0;
   padding: 0;
-  background-color: var(--white-color);
+  background-color: var(--red-color);
+  /* background-image: url(../../assets/batman1.svg); */
+  background-image: url(../../assets/batman2.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.container {
+.error-oups,
+.error-msg {
+  color: var(--white-color);
+  text-align: center;
+}
+
+.error-oups {
+  margin-top: 5rem;
+  font-weight: 700;
+}
+
+.error-msg {
+  margin-bottom: 4rem;
+}
+
+/* .container {
   background-color: var(--white-color);
   padding: 30px;
   flex: 0 1 80%;
   display: flex;
   flex-direction: column;
   align-items: stretch;
-}
+} */
 /* END ERROR PAGE */
 
 /* SIGNUP - LOGIN - FORGETPASSWORD */
@@ -320,8 +341,8 @@ footer {
   transition: 0.2s ease-in;
 }
 
-.formContent .inputBox input:focus~label,
-.formContent .inputBox input:valid~label {
+.formContent .inputBox input:focus ~ label,
+.formContent .inputBox input:valid ~ label {
   top: -30px;
   left: 0;
   color: var(--white-color);
@@ -443,27 +464,27 @@ button[disabled]:hover {
   right: 0;
   bottom: 0;
   background-color: var(--light-grey-color);
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 26px;
   width: 26px;
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-input:checked+.slider {
+input:checked + .slider {
   background-color: var(--red-color);
 }
 
-input:checked+.slider:before {
+input:checked + .slider:before {
   -webkit-transform: translateX(26px);
   -ms-transform: translateX(26px);
   transform: translateX(26px);
@@ -618,7 +639,7 @@ input:checked+.slider:before {
 }
 
 .answerContainer {
-  overflow-x: "auto";
+  overflow-x: 'auto';
 }
 
 .answers {
@@ -874,8 +895,8 @@ input:checked+.slider:before {
 }
 
 @media screen and (max-width: 1110px) {
-   /* make container full width */
-   .container {
+  /* make container full width */
+  .container {
     flex: 0 1 100%;
   }
 
@@ -889,5 +910,4 @@ input:checked+.slider:before {
   .formBoxRight {
     flex: 0 1 100%;
   }
-
 }

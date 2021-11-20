@@ -104,7 +104,8 @@ header {
 
 .banner-container {
   padding: 20px 0;
-  flex-basis: 80%;
+  flex-basis: 100%;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 100px;
 }
 /* END HEADER */
 
@@ -116,26 +117,27 @@ main {
 /* END MAIN */
 
 /* WELCOME PAGE */
-.welcomePage {
-  background-color: var(--red-color);
-  background-image: url(../../assets/wolverine.svg);
+.welcomePage,
+.leftImg,
+.rightImg {
+  background-color: var(--dark-red-color);
   background-repeat: no-repeat;
   background-position: center bottom;
   display: flex;
   justify-content: space-between;
 }
 
-.startingImg {
-  background-image: url(../../assets/xmen.svg);
+.welcomeImg {
+  background-image: url(../../assets/wolverine.svg);
 }
 
 .leftImg {
-  background-image: url(../../assets/wolverine-smile.svg),
+  background-image: url(../../assets/wolverine-smile-gauche.svg),
     url(../../assets/griffes-gauche.svg);
 }
 
 .rightImg {
-  background-image: url(../../assets/wolverine-smile.svg),
+  background-image: url(../../assets/wolverine-smile-droit.svg),
     url(../../assets/griffes-droit.svg);
 }
 
@@ -191,6 +193,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px -25px 50px -25px;
 }
 
 .footer-container p {
@@ -207,7 +210,7 @@ footer {
 .quiz-bg {
   margin: 0;
   padding: 0;
-  background-color: var(--red-color);
+  background-color: var(--dark-red-color);
   /* background-image: url(../../assets/batman1.svg); */
   background-image: url(../../assets/batman2.svg);
   background-repeat: no-repeat;
@@ -242,13 +245,12 @@ footer {
 } */
 /* END ERROR PAGE */
 
-/* SIGNUP - LOGIN - FORGETPASSWORD */
+/* REGISTER - LOGIN - FORGETPASSWORD */
 .signUpLoginBox {
-  background-image: url(../../assets/bg-noise-texture.png);
+  background-color: var(--dark-red-color);
+  /* background-image: url(../../assets/bg-noise-texture.png); */
   background-repeat: repeat;
-  -webkit-box-shadow: inset 0px 143px 108px -18px rgba(0, 0, 0, 0.39);
-  -moz-box-shadow: inset 0px 143px 108px -18px rgba(0, 0, 0, 0.39);
-  box-shadow: inset 0px 143px 108px -18px rgba(0, 0, 0, 0.39);
+  height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -256,6 +258,7 @@ footer {
 .slContainer {
   flex: 0 1 80%;
   display: flex;
+  align-items: center;
 }
 
 .formBoxLeftSignup {
@@ -302,10 +305,13 @@ footer {
 }
 
 .formContent h2 {
-  margin: 0 0 40px 0;
-  padding: 0;
+  background-image: url(../../assets/bg-noise-texture.png);
+  border-radius: 0 10px 0 0;
+  margin: 40px 0;
+  padding: 1rem;
   color: var(--white-color);
   text-transform: uppercase;
+  text-align: right;
 }
 
 .formContent .inputBox {
@@ -396,7 +402,7 @@ button[disabled]:hover {
 .simpleLink:hover {
   color: var(--red-color);
 }
-/* END SIGNUP - LOGIN - FORGETPASSWORD */
+/* END REGISTER - LOGIN - FORGETPASSWORD */
 
 /* LOADER */
 .loader {

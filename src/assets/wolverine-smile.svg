@@ -44,12 +44,12 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1.2568359"
-     inkscape:cx="202.53089"
-     inkscape:cy="333.64113"
+     inkscape:cx="185.784"
+     inkscape:cy="341.33334"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g877" />
+     inkscape:current-layer="svg2" />
   <rect
      style="display:none;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
      id="rect1372"
@@ -58,21 +58,22 @@
      x="6.1132974e-009"
      y="-1.2226565e-008" />
   <g
-     style="display:inline;fill:#000000;stroke-width:0.21616159"
+     style="display:inline;fill:#ffffff;stroke-width:0.21616159"
      transform="matrix(4.6261688,0,0,4.6261688,114.13756,7.363076)"
      id="g877">
     <polygon
        style="display:inline;fill:#ffffff;stroke-width:0.21616159"
        id="polygon841"
-       points="49.839,94 56.009,94 61.523,90.494 61.765,89.259 56.009,93 49.839,93 43.991,93 38.238,89.271 38.475,90.488 43.991,94 " />
+       points="56.009,93 49.839,93 43.991,93 38.238,89.271 38.475,90.488 43.991,94 49.839,94 56.009,94 61.523,90.494 61.765,89.259 " />
     <polygon
        style="display:inline;fill:#ffffff;stroke-width:0.21616159"
        id="polygon843"
-       points="49.88,78 43.565,78 41.873,80.704 42.383,80.949 43.681,80 49.88,80 50.011,80 50.243,80 56.441,80 57.74,80.938 58.25,80.715 56.558,78 50.243,78 50.011,78 "
+       points="43.681,80 49.88,80 50.011,80 50.243,80 56.441,80 57.74,80.938 58.25,80.715 56.558,78 50.243,78 50.011,78 49.88,78 43.565,78 41.873,80.704 42.383,80.949 "
        transform="matrix(1,0,0,-1,0,158.949)" />
     <g
        id="g859"
-       transform="translate(-77.88182,1.798712)">
+       transform="translate(-77.88182,1.798712)"
+       style="fill:#ffffff">
       <path
          style="fill:#ffffff;stroke-width:0.21616159"
          id="path832"
@@ -116,7 +117,7 @@
   </g>
   <g
      id="g1382"
-     style="display:inline">
+     style="display:none">
     <g
        inkscape:transform-center-y="70.414938"
        inkscape:transform-center-x="17.902107"
@@ -162,7 +163,7 @@
   </g>
   <g
      id="g1377"
-     style="display:inline">
+     style="display:none">
     <g
        style="fill:#ffffff;stroke-width:0.2622121"
        transform="matrix(-2.96334,2.4006196,2.4006196,2.96334,297.56708,311.09842)"

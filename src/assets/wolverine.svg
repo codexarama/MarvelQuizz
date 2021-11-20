@@ -44,12 +44,12 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="1.2568359"
-     inkscape:cx="341.33334"
+     inkscape:cx="185.784"
      inkscape:cy="341.33334"
      inkscape:window-x="-9"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g877" />
+     inkscape:current-layer="svg2" />
   <rect
      style="display:none;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
      id="rect1372"
@@ -64,11 +64,11 @@
     <polygon
        style="fill:#ffffff;stroke-width:0.21616159"
        id="polygon841"
-       points="49.839,94 56.009,94 61.523,90.494 61.765,89.259 56.009,93 49.839,93 43.991,93 38.238,89.271 38.475,90.488 43.991,94 " />
+       points="61.523,90.494 61.765,89.259 56.009,93 49.839,93 43.991,93 38.238,89.271 38.475,90.488 43.991,94 49.839,94 56.009,94 " />
     <polygon
        style="fill:#ffffff;stroke-width:0.21616159"
        id="polygon843"
-       points="57.74,80.938 58.25,80.715 56.558,78 50.243,78 50.011,78 49.88,78 43.565,78 41.873,80.704 42.383,80.949 43.681,80 49.88,80 50.011,80 50.243,80 56.441,80 " />
+       points="56.558,78 50.243,78 50.011,78 49.88,78 43.565,78 41.873,80.704 42.383,80.949 43.681,80 49.88,80 50.011,80 50.243,80 56.441,80 57.74,80.938 58.25,80.715 " />
     <g
        id="g855">
       <path
@@ -105,7 +105,7 @@
   </g>
   <g
      id="g1312"
-     style="display:none">
+     style="display:inline">
     <path
        sodipodi:nodetypes="cccc"
        style="fill:#ffffff;stroke-width:1"
@@ -147,7 +147,7 @@
   <g
      id="g1341"
      transform="matrix(-1,0,0,1,682.66667,0)"
-     style="display:none">
+     style="display:inline">
     <path
        id="path1335"
        d="m 659.05518,310.54206 c 1.01041,25.95618 -27.65774,56.97243 -184.59539,280.4873 -7.17727,-0.77532 -3.83951,-12.13012 -3.83951,-12.13012 z"
